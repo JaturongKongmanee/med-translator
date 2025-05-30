@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Startup Name - Solve Problem X Brilliantly</title>
+
+    <meta name="description" content="Briefly describe your startup's unique value proposition and what it offers. Make it around 155 characters.">
+
+    <style>
+        /* Basic Reset & Global Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            margin: 0;
+            padding: 0;
+            /* background-color: #f8f9fa;  */
+            /* Light grey background */
+            background-color: #000000;
+            color: #212529; /* Dark text color */
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center; /* Center text by default */
+        }
+
+        .container {
+            max-width: 800px; /* Max width for content */
+            width: 90%; /* Responsive width */
+            padding: 2rem 1rem;
+            margin-top: 2rem; /* Space from top */
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 2.5rem; /* Large headline */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            /* color: #343a40;  */
+            /* Slightly darker heading */
+            color: #cdcdcd;
+        }
+
+        p.subheadline {
+            font-size: 1.15rem;
+            /* color: #495057;  */
+            /* Softer color for subheadline */
+            color: #cdcdcd;
+            margin-bottom: 1.5rem;
+            max-width: 600px; /* Keep subheadline from getting too wide */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Call to Action Button */
+        .cta-button {
+            display: inline-block;
+            /* background-color: #007bff;  */
+            /* Primary blue */
+            background: #F7EF8A;
+            background: linear-gradient(90deg, rgba(247, 239, 138, 0.0) 0%, rgba(211, 167, 69, 0.8) 80%);
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 0.5rem; /* Slightly rounded corners */
+            transition: background-color 0.2s ease-in-out;
+            /* margin-bottom: 2.5rem; */
+        }
+
+        .cta-button:hover {
+            /* background-color: #0056b3; Darker blue on hover */
+            background-color: #be3475;
+        }
+
+        /* Figure/Image Placeholder */
+        .figure-placeholder {
+            /* background-color: #e9ecef;  */
+            /* Placeholder background */
+            /* border: 1px dashed #ced4da;  */
+            /* Dashed border */
+            width: 100%;
+            max-width: 600px; /* Max width for the image/figure */
+            height: 350px; /* Adjust as needed, or let image define height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin: 0 auto 2rem auto;  */
+            /* Center the placeholder */
+            margin: 0 auto 0 auto; 
+            overflow: hidden; /* If using an img tag inside */
+        }
+
+        .figure-placeholder img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Or 'cover' depending on desired effect */
+        }
+
+        .figure-placeholder .placeholder-text {
+            color: #cdcdcd;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: auto; /* Pushes footer to the bottom */
+            padding: 1.5rem 0;
+            font-size: 0.9rem;
+            color: #cdcdcd;
+            width: 100%;
+            /* border-top: 1px solid #e9ecef; */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p.subheadline {
+                font-size: 1rem;
+            }
+            .container {
+                padding: 1.5rem 0.5rem;
+            }
+            .figure-placeholder {
+                height: 250px; /* Adjust for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            Spilled Lab
+        </h1>
+
+        <p class="subheadline">
+            Streamlining communication in healthcare with technology enabled by machine learning and artificial intelligence--to empower healthcare teams, reduce errors, and improve patient care.
+        </p>
+
+        <a href="#your-signup-link-or-section" class="cta-button">
+            Get Early Access
+        </a>
+
+        <div class="figure-placeholder">
+            <img src="assets/images/bg.jpg" alt="Placeholder for Your Product Visual">
+
+            </div>
+
+        </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Spilled Lab. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple script to set the current year in the footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
